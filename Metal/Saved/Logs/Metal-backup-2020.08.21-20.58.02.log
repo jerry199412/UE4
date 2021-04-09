@@ -1,0 +1,975 @@
+﻿Log file open, 07/05/20 11:53:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Metal
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-441352742) SRandInit(-441352741).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.481894
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal  -epicusername="jerry199412" -epicuserid=e39cd4c2c81743f6be89f1e50758bc19 -epiclocale=zh-CN
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.07.05-03.54.03:379][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.05-03.54.03:379][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.05-03.54.03:542][  0]LogInit: Computer: DESKTOP-629OVH4
+[2020.07.05-03.54.03:542][  0]LogInit: User: 贾瑞
+[2020.07.05-03.54.03:542][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.07.05-03.54.03:542][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.05-03.54.03:545][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.07.05-03.54.03:545][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.05-03.54.03:545][  0]LogMemory: Process Physical Memory: 278.64 MB used, 278.64 MB peak
+[2020.07.05-03.54.03:545][  0]LogMemory: Process Virtual Memory: 275.76 MB used, 275.76 MB peak
+[2020.07.05-03.54.03:545][  0]LogMemory: Physical Memory: 4265.52 MB used,  3847.45 MB free, 8112.96 MB total
+[2020.07.05-03.54.03:546][  0]LogMemory: Virtual Memory: 4785.46 MB used,  3847.45 MB free, 134217728.00 MB total
+[2020.07.05-03.54.04:460][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.07.05-03.54.04:460][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.07.05-03.54.08:451][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.05-03.54.08:557][  0]LogD3D11RHI:    0. 'AMD Radeon HD 8500M' (Feature Level 11_0)
+[2020.07.05-03.54.08:557][  0]LogD3D11RHI:       1015/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.07.05-03.54.08:597][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2020.07.05-03.54.08:598][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.07.05-03.54.08:613][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.05-03.54.08:613][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.05-03.54.08:613][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.05-03.54.08:638][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.05-03.54.08:638][  0]LogD3D11RHI:     GPU DeviceId: 0x666f (for the marketing name, search the web for "GPU Device Id")
+[2020.07.05-03.54.08:638][  0]LogWindows: EnumDisplayDevices:
+[2020.07.05-03.54.08:640][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2020.07.05-03.54.08:644][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2020.07.05-03.54.08:649][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2020.07.05-03.54.08:651][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.07.05-03.54.08:651][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 8500M
+[2020.07.05-03.54.08:651][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.07.05-03.54.08:651][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.07.05-03.54.08:651][  0]LogRHI: Texture pool is 710 MB (70% of 1015 MB)
+[2020.07.05-03.54.08:794][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.05-03.54.08:836][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.07.05-03.54.08:842][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (G:/Users/贾瑞/Documents/Unreal Projects/Metal/Intermediate/Shaders/WorkingDirectory/8832/).
+[2020.07.05-03.54.08:843][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/贾瑞/AppData/Local/Temp/UnrealShaderWorkingDir/FD7A91CC4E3673EF5D41FB815EBD8FE2/'.
+[2020.07.05-03.54.08:843][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.05-03.54.15:401][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.07.05-03.54.15:676][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.07.05-03.54.15:974][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.07.05-03.54.16:260][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.07.05-03.54.16:586][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.07.05-03.54.17:352][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.07.05-03.54.17:695][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.07.05-03.54.18:047][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.07.05-03.54.18:470][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.07.05-03.54.18:832][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.07.05-03.54.19:606][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.07.05-03.54.19:921][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.07.05-03.54.20:241][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.07.05-03.54.20:599][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.07.05-03.54.20:877][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.07.05-03.54.21:844][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.07.05-03.54.21:844][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.07.05-03.54.22:111][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.07.05-03.54.22:549][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.07.05-03.54.22:720][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.07.05-03.54.23:013][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.07.05-03.54.23:292][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.07.05-03.54.23:587][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.07.05-03.54.23:906][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.07.05-03.54.23:906][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.05-03.54.26:524][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.05-03.54.26:856][  0]LogDerivedDataCache: Loaded boot cache 0.33s 93MB C:/Users/贾瑞/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2020.07.05-03.54.26:856][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/贾瑞/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2020.07.05-03.54.26:856][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Users/贾瑞/Documents/Unreal Projects/Metal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.05-03.54.26:856][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.05-03.54.26:857][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Users/贾瑞/Documents/Unreal Projects/Metal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.05-03.54.26:857][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.05-03.54.27:029][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.05-03.54.27:066][  0]LogDerivedDataCache: Using Local data cache path C:/Users/贾瑞/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.05-03.54.27:125][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.07.05-03.54.27:127][  0]LogSlate: Using Freetype 2.6.0
+[2020.07.05-03.54.27:129][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.05-03.54.27:129][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.05-03.54.29:548][  0]LogAssetRegistry: FAssetRegistry took 0.0648 seconds to start up
+[2020.07.05-03.54.30:413][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.05-03.54.32:491][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.07.05-03.54.32:724][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.07.05-03.54.32:724][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.05-03.54.32:725][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.07.05-03.54.32:725][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.07.05-03.54.32:725][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.07.05-03.54.32:915][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.07.05-03.54.35:514][  0]LogNetVersion: Metal , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1549666389)
+[2020.07.05-03.54.36:693][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.163282 seconds
+[2020.07.05-03.54.36:725][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2020.07.05-03.54.36:725][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2020.07.05-03.54.36:725][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.05-03.54.37:061][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.07.05-03.54.51:040][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.05-03.54.51:193][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.05-03.54.54:105][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.07.05-03.54.56:410][  0]SourceControl: Source control is disabled
+[2020.07.05-03.54.56:411][  0]SourceControl: Source control is disabled
+[2020.07.05-03.54.56:689][  0]SourceControl: Source control is disabled
+[2020.07.05-03.54.56:940][  0]SourceControl: Source control is disabled
+[2020.07.05-03.54.59:978][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.05-03.55.01:297][  0]LogOcInput: OculusInput pre-init called
+[2020.07.05-03.55.02:511][  0]LogEngine: Initializing Engine...
+[2020.07.05-03.55.02:528][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.05-03.55.03:563][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.07.05-03.55.03:564][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.07.05-03.55.04:155][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.05-03.55.04:289][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.07.05-03.55.04:856][  0]LogInit: FAudioDevice initialized.
+[2020.07.05-03.55.05:143][  0]LogDerivedDataCache: Saved boot cache 0.28s 93MB C:/Users/贾瑞/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2020.07.05-03.55.05:181][  0]LogInit: Texture streaming: Enabled
+[2020.07.05-03.55.05:727][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.05-03.55.06:693][  0]LogInit: Transaction tracking system initialized
+[2020.07.05-03.55.07:954][  0]BlueprintLog: New page: Editor Load
+[2020.07.05-03.55.11:298][  0]LocalizationService: Localization service is disabled
+[2020.07.05-03.55.13:738][  0]LogConsoleResponse: Display: 
+[2020.07.05-03.55.14:796][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.05-03.55.14:796][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.05-03.55.14:797][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.07.05-03.55.15:386][  0]LogFileCache: Scanning file cache for directory 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/' took 0.05s
+[2020.07.05-03.55.19:616][  0]SourceControl: Source control is disabled
+[2020.07.05-03.55.19:616][  0]Cmd: MAP LOAD FILE="G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.05-03.55.19:713][  0]LightingResults: New page: Lighting Build
+[2020.07.05-03.55.19:913][  0]MapCheck: New page: Map Check
+[2020.07.05-03.55.19:914][  0]LightingResults: New page: Lighting Build
+[2020.07.05-03.55.29:342][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.05-03.55.29:457][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.05-03.55.29:659][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.05-03.55.29:938][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 278.545ms to complete.
+[2020.07.05-03.55.29:939][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 10.322
+[2020.07.05-03.55.30:823][  0]LogCollectionManager: Loaded 0 collections in 0.010462 seconds
+[2020.07.05-03.55.31:137][  0]LogFileCache: Scanning file cache for directory 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Collections/' took 0.01s
+[2020.07.05-03.55.31:138][  0]LogFileCache: Scanning file cache for directory 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Developers/贾瑞/Collections/' took 0.02s
+[2020.07.05-03.55.31:138][  0]LogFileCache: Scanning file cache for directory 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Collections/' took 0.02s
+[2020.07.05-03.55.31:138][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.07.05-03.55.31:226][  0]LogContentBrowser: Native class hierarchy populated in 0.0837 seconds. Added 2386 classes and 500 folders.
+[2020.07.05-03.55.31:511][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0045 seconds. Added 0 classes and 0 folders.
+[2020.07.05-03.55.31:988][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0037 seconds. Added 0 classes and 0 folders.
+[2020.07.05-03.55.32:249][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0048 seconds. Added 1 classes and 2 folders.
+[2020.07.05-03.55.33:103][  0]LogSlate: Took 0.005420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.05-03.55.33:115][  0]LogSlate: Took 0.000711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.05-03.55.33:164][  0]LogSlate: Took 0.003430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.05-03.55.33:872][  0]LogRenderer: Reallocating scene render targets to support 888x396 Format 10 NumSamples 1 (Frame:1).
+[2020.07.05-03.55.36:828][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0038 seconds. Added 1 classes and 2 folders.
+[2020.07.05-03.55.36:828][  0]LogLoad: (Engine Initialization) Total time: 102.68 seconds
+[2020.07.05-03.55.36:829][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.05-03.55.36:830][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.07.05-03.55.37:212][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.05-03.55.38:641][  3]LogSlate: Took 0.003802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.07.05-03.55.40:302][  8]LogAssetRegistry: Asset discovery search completed in 70.7804 seconds
+[2020.07.05-03.55.40:311][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.07.05-03.55.40:311][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000211 seconds (updated 0 objects)
+[2020.07.05-03.55.41:325][ 11]LogSlate: Took 0.000758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.07.05-03.56.20:966][472]LogSlate: Took 0.000599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.07.05-03.58.29:496][ 98]LogSlate: Took 0.008863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.07.05-03.58.29:768][ 98]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/picture/未标题-1.png)
+[2020.07.05-03.58.33:801][ 98]LogTexture: Display: Building textures: 未标题-1 (AutoDXT, 5184X3456)
+[2020.07.05-03.59.25:964][ 93]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0037 seconds. Added 1 classes and 0 folders.
+[2020.07.05-03.59.25:978][ 93]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-03.59.26:579][ 93]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-03.59.26:656][ 93]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-03.59.26:841][ 93]LogSlate: Took 0.034581 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.05-03.59.47:237][531]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-03.59.47:442][531]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.00.08:979][ 10]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.00.09:072][ 10]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.00.17:849][205]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.00.18:018][205]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.00.33:306][537]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.00.33:410][537]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.01.08:777][277]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2020.07.05-04.01.08:777][277]MaterialEditorStats: Vertex shader: 122 instructions
+[2020.07.05-04.01.08:777][277]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.01.52:085][225]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.01.52:356][226]LogSlate: Took 0.006989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.07.05-04.01.56:662][311]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.02.02:605][426]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.02.13:033][637]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.03.02:280][670]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2020.07.05-04.03.02:281][670]MaterialEditorStats: Vertex shader: 125 instructions
+[2020.07.05-04.03.02:281][670]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.03.40:966][497]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.04.26:775][461]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2020.07.05-04.04.26:775][461]MaterialEditorStats: Vertex shader: 122 instructions
+[2020.07.05-04.04.26:776][461]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.05.37:282][954]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.062
+[2020.07.05-04.05.37:304][954]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Metal/fire/未标题-1] ([1] browsable assets)...
+[2020.07.05-04.05.37:327][954]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Metal/fire/未标题-1.未标题-1]
+[2020.07.05-04.05.37:327][954]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metal/fire/未标题-1]
+[2020.07.05-04.05.37:327][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metal/fire/未标题-1" FILE="G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/未标题-1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.07.05-04.05.38:935][954]LogSavePackage: Save=1595.93ms
+[2020.07.05-04.05.38:935][954]LogSavePackage: Moving 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/未标题-1_Auto1E14DCB48439479E36B5B2E9490FA468A.tmp' to 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/未标题-1_Auto1.uasset'
+[2020.07.05-04.05.38:953][954]LogSavePackage: Display: Finished SavePackage G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/未标题-1_Auto1.uasset
+[2020.07.05-04.05.38:960][954]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Metal/fire/fire-a] ([1] browsable assets)...
+[2020.07.05-04.05.39:053][954]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Metal/fire/fire-a.fire-a]
+[2020.07.05-04.05.39:054][954]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metal/fire/fire-a]
+[2020.07.05-04.05.39:054][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metal/fire/fire-a" FILE="G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/fire-a_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.07.05-04.05.39:107][954]LogSavePackage: Save=44.45ms
+[2020.07.05-04.05.39:108][954]LogSavePackage: Moving 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/fire-a_Auto1AD30CD234007E6CBD66E72BD7FE56F28.tmp' to 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/fire-a_Auto1.uasset'
+[2020.07.05-04.05.39:125][954]LogSavePackage: Display: Finished SavePackage G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/fire-a_Auto1.uasset
+[2020.07.05-04.05.39:125][954]LogFileHelpers: Auto-saving content packages took 1.832
+[2020.07.05-04.05.39:136][954]LogSlate: Took 0.003437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.05-04.10.43:846][453]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.11.06:873][999]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.11.45:409][952]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.11.48:617][ 16]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.12.25:057][787]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.12.33:652][952]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.12.47:238][219]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.12.47:313][219]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.12.57:496][419]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.13.00:743][482]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.13.30:331][111]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.14.00:782][730]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.14.02:565][757]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.14.04:873][798]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.14.11:024][918]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.14.16:707][ 14]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.14.18:609][ 46]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.15.27:985][460]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.16.34:102][833]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.16.34:104][833]LogMaterial: Warning: Failed to compile Material /Engine/Transient.fire-a for platform PCD3D_SM5, Default Material will be used in game.
+[2020.07.05-04.16.34:105][833]LogMaterial: Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2020.07.05-04.16.34:107][833]MaterialEditorStats: Error: [SM5] (Node ComponentMask) Missing ComponentMask input
+[2020.07.05-04.17.03:011][631]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.17.03:013][631]LogMaterial: Warning: Failed to compile Material /Engine/Transient.fire-a for platform PCD3D_SM5, Default Material will be used in game.
+[2020.07.05-04.17.03:013][631]LogMaterial: Warning: 	(Node ComponentMask) Missing ComponentMask input
+[2020.07.05-04.17.08:527][744]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionWorldPosition_1, compiling. 
+[2020.07.05-04.17.10:816][789]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.17.10:918][789]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionWorldPosition_1, compiling. 
+[2020.07.05-04.17.20:782][971]LogMaterialEditor: Applying material fire-a
+[2020.07.05-04.17.24:606][971]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.17.25:026][971]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.17.25:181][971]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.17.25:415][971]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fire-a, compiling. 
+[2020.07.05-04.17.33:789][971]TextureStreamingBuild: Display: Compiling optional shaders took 8.403 seconds.
+[2020.07.05-04.19.03:963][884]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2020.07.05-04.19.03:964][884]MaterialEditorStats: Vertex shader: 129 instructions
+[2020.07.05-04.19.03:964][884]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.19.05:006][901]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.071
+[2020.07.05-04.19.05:019][901]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Metal/fire/fire-a] ([1] browsable assets)...
+[2020.07.05-04.19.05:125][901]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Metal/fire/fire-a.fire-a]
+[2020.07.05-04.19.05:125][901]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metal/fire/fire-a]
+[2020.07.05-04.19.05:125][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metal/fire/fire-a" FILE="G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/fire-a_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.07.05-04.19.05:223][901]LogSavePackage: Save=85.74ms
+[2020.07.05-04.19.05:223][901]LogSavePackage: Moving 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/fire-a_Auto237CE6F9842CAE9BBCC4ACDA1440AC620.tmp' to 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/fire-a_Auto2.uasset'
+[2020.07.05-04.19.05:246][901]LogSavePackage: Display: Finished SavePackage G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/fire-a_Auto2.uasset
+[2020.07.05-04.19.05:247][901]LogFileHelpers: Auto-saving content packages took 0.238
+[2020.07.05-04.20.05:985][199]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.20.47:324][ 50]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.20.47:403][ 50]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.07.05-04.21.03:990][367]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.21.04:086][367]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.07.05-04.21.22:322][747]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.21.22:431][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.07.05-04.21.31:651][935]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.21.31:760][935]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2020.07.05-04.21.46:173][231]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.21.48:182][267]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.21.48:273][267]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.21.56:523][411]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.21.56:634][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.22.02:846][534]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.22.02:943][534]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.22.04:820][570]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.22.04:924][570]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.22.10:659][675]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.22.10:778][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.22.10:802][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2020.07.05-04.22.36:907][161]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.22.37:018][161]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.22.37:102][161]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2020.07.05-04.22.42:647][272]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.22.42:750][272]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.22.52:227][452]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.22.52:308][452]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2020.07.05-04.23.08:020][746]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.23.08:110][746]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2020.07.05-04.23.16:297][912]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.23.16:392][912]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2020.07.05-04.23.28:386][156]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.23.28:494][156]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2020.07.05-04.23.34:504][282]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.23.44:188][467]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.23.44:282][467]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2020.07.05-04.23.46:987][517]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.23.47:084][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.23.55:067][672]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.24.01:073][776]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.24.03:575][819]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.24.03:665][819]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2020.07.05-04.24.24:577][250]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.24.40:584][570]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.24.46:527][688]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.24.52:096][788]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.24.54:281][823]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.25.03:358][996]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.26.11:982][408]MaterialEditorStats: Base pass shader without light map: 25 instructions
+[2020.07.05-04.26.11:982][408]MaterialEditorStats: Vertex shader: 129 instructions
+[2020.07.05-04.26.11:982][408]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.26.23:973][658]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.26.24:038][658]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.05-04.26.42:273][846]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.26.42:393][846]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.05-04.26.57:656][131]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.26.57:753][131]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.05-04.27.01:351][186]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.27.01:454][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.05-04.28.07:109][513]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2020.07.05-04.28.07:109][513]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-04.28.07:110][513]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.28.07:110][513]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-04.29.13:890][868]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.29.48:153][563]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.29.48:225][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.07.05-04.29.50:712][603]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.29.58:868][760]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.29.58:948][760]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.07.05-04.30.02:795][830]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.30.12:103][ 20]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.30.42:781][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2020.07.05-04.31.19:337][411]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2020.07.05-04.31.19:337][411]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-04.31.19:337][411]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.31.19:337][411]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-04.31.55:246][168]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.31.55:319][168]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2020.07.05-04.31.55:385][168]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2020.07.05-04.32.32:413][879]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.33.32:121][116]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.33.36:889][213]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.33.39:986][259]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.33.42:373][303]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.33.42:466][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2020.07.05-04.33.46:186][375]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2020.07.05-04.33.59:770][655]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.33.59:940][655]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2020.07.05-04.33.59:961][655]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2020.07.05-04.33.59:986][655]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_1, compiling. 
+[2020.07.05-04.34.13:869][932]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.34.13:981][932]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_1, compiling. 
+[2020.07.05-04.34.21:694][ 61]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.34.21:792][ 61]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_1, compiling. 
+[2020.07.05-04.34.23:640][ 91]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.34.23:747][ 91]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2020.07.05-04.35.37:812][639]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2020.07.05-04.35.37:812][639]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-04.35.37:813][639]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.35.37:813][639]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-04.35.49:945][878]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.35.50:041][878]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.07.05-04.35.50:083][878]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.07.05-04.35.56:444][986]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.35.56:565][986]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.07.05-04.36.09:421][221]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.36.09:513][221]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.07.05-04.36.18:769][383]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.36.18:891][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.07.05-04.37.28:069][784]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.38.17:921][824]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2020.07.05-04.38.17:921][824]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-04.38.17:921][824]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.38.17:922][824]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-04.38.22:838][916]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPanner_0, compiling. 
+[2020.07.05-04.39.09:114][878]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.39.15:838][989]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.39.19:718][ 49]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.39.26:733][174]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.39.35:988][364]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.39.44:438][497]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.40.25:747][340]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.41.28:024][651]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2020.07.05-04.41.28:024][651]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-04.41.28:025][651]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.41.28:025][651]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-04.41.47:658][ 53]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.41.54:913][192]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.41.55:051][192]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.07.05-04.41.55:078][192]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.07.05-04.42.00:319][279]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.42.00:426][279]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.07.05-04.42.51:712][288]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2020.07.05-04.42.51:712][288]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-04.42.51:712][288]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.42.51:712][288]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-04.43.23:818][978]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.43.24:093][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.43.24:128][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2020.07.05-04.43.24:165][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2020.07.05-04.43.24:192][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2020.07.05-04.43.24:223][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.07.05-04.43.24:263][978]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.07.05-04.43.27:529][ 17]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.43.27:638][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.07.05-04.43.31:891][ 88]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.43.31:973][ 88]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.07.05-04.43.57:057][595]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_2, compiling. 
+[2020.07.05-04.45.21:941][345]MaterialEditorStats: Base pass shader without light map: 35 instructions
+[2020.07.05-04.45.21:942][345]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-04.45.21:942][345]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.45.21:942][345]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-04.48.56:579][797]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.48.56:636][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_2, compiling. 
+[2020.07.05-04.49.10:082][ 65]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.49.10:196][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_2, compiling. 
+[2020.07.05-04.49.10:221][ 65]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_3, compiling. 
+[2020.07.05-04.49.14:993][139]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.49.15:082][139]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_3, compiling. 
+[2020.07.05-04.49.17:939][183]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.49.18:031][183]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_2, compiling. 
+[2020.07.05-04.49.18:092][183]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_3, compiling. 
+[2020.07.05-04.49.30:946][404]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.49.31:051][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.07.05-04.49.31:116][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_3, compiling. 
+[2020.07.05-04.50.03:024][993]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.50.03:120][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.50.03:199][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2020.07.05-04.50.03:258][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2020.07.05-04.50.03:328][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_2, compiling. 
+[2020.07.05-04.50.03:387][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2020.07.05-04.50.03:445][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.07.05-04.50.03:511][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.07.05-04.50.03:570][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_3, compiling. 
+[2020.07.05-04.51.05:622][240]MaterialEditorStats: Base pass shader without light map: 36 instructions
+[2020.07.05-04.51.05:623][240]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-04.51.05:623][240]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.51.05:623][240]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-04.53.04:640][627]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.53.05:110][628]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2020.07.05-04.53.41:168][344]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.53.46:534][426]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.53.51:351][500]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.53.58:663][634]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.54.04:131][730]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.54.32:803][275]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.54.52:902][646]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.54.57:617][719]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.54.57:706][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2020.07.05-04.54.57:784][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_1, compiling. 
+[2020.07.05-04.54.57:865][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_2, compiling. 
+[2020.07.05-04.54.57:951][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_2, compiling. 
+[2020.07.05-04.54.58:016][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionAdd_1, compiling. 
+[2020.07.05-04.54.58:081][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2020.07.05-04.54.58:138][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.07.05-04.54.58:199][719]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_3, compiling. 
+[2020.07.05-04.55.01:225][775]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.55.03:714][811]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.55.07:811][871]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-04.57.34:833][880]MaterialEditorStats: Base pass shader without light map: 44 instructions
+[2020.07.05-04.57.34:833][880]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-04.57.34:833][880]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-04.57.34:833][880]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-05.06.34:689][898]LogMaterialEditor: Applying material fire-a
+[2020.07.05-05.06.38:355][898]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.06.38:783][898]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.06.39:008][898]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.06.39:353][898]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fire-a, compiling. 
+[2020.07.05-05.06.52:435][898]TextureStreamingBuild: Display: Compiling optional shaders took 13.127 seconds.
+[2020.07.05-05.07.33:268][ 11]LogActorFactory: Actor Factory created Sphere
+[2020.07.05-05.07.36:696][106]LogActorFactory: Actor Factory created Sphere
+[2020.07.05-05.07.52:129][452]MaterialEditorStats: Base pass shader without light map: 44 instructions
+[2020.07.05-05.07.52:130][452]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-05.07.52:130][452]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-05.07.52:130][452]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-05.07.54:176][468]LogSavePackage: Save=494.98ms
+[2020.07.05-05.07.54:176][468]LogSavePackage: Moving 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/ThirdPersonExampleMap_Auto38EE9A844446EAF5A663C4FA58A22B3E2.tmp' to 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2020.07.05-05.07.54:256][468]LogSavePackage: Display: Finished SavePackage G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2020.07.05-05.07.54:268][468]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.820
+[2020.07.05-05.07.54:268][468]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.820
+[2020.07.05-05.07.54:280][468]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Metal/fire/fire-a] ([1] browsable assets)...
+[2020.07.05-05.07.54:369][468]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Metal/fire/fire-a.fire-a]
+[2020.07.05-05.07.54:369][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/Metal/fire/fire-a]
+[2020.07.05-05.07.54:369][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metal/fire/fire-a" FILE="G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/fire-a_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.07.05-05.07.54:540][468]LogSavePackage: Save=160.58ms
+[2020.07.05-05.07.54:541][468]LogSavePackage: Moving 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/fire-a_Auto3A31817D446AF33130606F9B5F4165739.tmp' to 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/fire-a_Auto3.uasset'
+[2020.07.05-05.07.54:563][468]LogSavePackage: Display: Finished SavePackage G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Autosaves/Game/Metal/fire/fire-a_Auto3.uasset
+[2020.07.05-05.07.54:564][468]LogFileHelpers: Auto-saving content packages took 0.293
+[2020.07.05-05.08.31:972][ 42]LogActorFactory: Actor Factory created Sphere
+[2020.07.05-05.08.34:123][ 84]LogActorFactory: Actor Factory created Sphere
+[2020.07.05-05.09.04:430][ 61]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall7)
+[2020.07.05-05.09.05:833][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2020.07.05-05.10.06:699][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2020.07.05-05.10.09:037][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.10.10:084][875]Cmd: TRANSACTION UNDO
+[2020.07.05-05.10.10:084][875]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.05-05.10.10:199][875]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.10.11:101][892]Cmd: TRANSACTION UNDO
+[2020.07.05-05.10.11:101][892]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.05-05.10.11:226][892]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.10.12:324][919]Cmd: TRANSACTION UNDO
+[2020.07.05-05.10.12:325][919]LogEditorTransaction: Undo Set actor rotation
+[2020.07.05-05.10.12:349][919]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.10.15:715][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.10.17:559][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.10.19:180][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.10.50:214][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.07.05-05.10.54:929][ 21]MaterialEditorStats: Base pass shader without light map: 44 instructions
+[2020.07.05-05.10.54:929][ 21]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-05.10.54:929][ 21]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-05.10.54:929][ 21]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-05.10.55:068][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.10.57:487][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.07.05-05.11.11:422][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.11.14:273][663]Cmd: EDIT COPY
+[2020.07.05-05.11.15:267][696]Cmd: EDIT PASTE
+[2020.07.05-05.11.18:447][802]Cmd: TRANSACTION UNDO
+[2020.07.05-05.11.18:447][802]LogEditorTransaction: Undo Paste
+[2020.07.05-05.11.18:548][802]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.11.21:774][851]LogActorFactory: Actor Factory created Sphere
+[2020.07.05-05.11.24:942][914]LogActorFactory: Actor Factory created Sphere
+[2020.07.05-05.11.38:894][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.11.40:735][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere3)
+[2020.07.05-05.12.04:966][ 26]MaterialEditorStats: Base pass shader without light map: 44 instructions
+[2020.07.05-05.12.04:966][ 26]MaterialEditorStats: Vertex shader: 131 instructions
+[2020.07.05-05.12.04:967][ 26]MaterialEditorStats: Texture samplers: 3/16
+[2020.07.05-05.12.04:967][ 26]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.07.05-05.12.08:247][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.12.13:488][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere3)
+[2020.07.05-05.12.20:677][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.12.23:851][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere3)
+[2020.07.05-05.12.43:832][168]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2020.07.05-05.12.45:247][217]Cmd: DELETE
+[2020.07.05-05.12.45:247][217]Cmd: ACTOR DELETE
+[2020.07.05-05.12.45:250][217]LogEditorActor: Deleted Actor: Actor
+[2020.07.05-05.12.45:307][217]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2020.07.05-05.12.47:834][274]LogActorFactory: Actor Factory created Sphere
+[2020.07.05-05.12.48:640][296]LogActorFactory: Actor Factory created Sphere
+[2020.07.05-05.12.54:722][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere3)
+[2020.07.05-05.12.56:498][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere4)
+[2020.07.05-05.13.09:775][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere3)
+[2020.07.05-05.13.16:565][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere4)
+[2020.07.05-05.13.27:960][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.07.05-05.13.29:866][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.07.05-05.13.32:374][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2020.07.05-05.13.36:082][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2020.07.05-05.13.37:278][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.07.05-05.13.40:035][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2020.07.05-05.13.42:376][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.07.05-05.13.52:272][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere3)
+[2020.07.05-05.14.04:283][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere4)
+[2020.07.05-05.14.25:206][685]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.05-05.14.25:550][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.05-05.14.25:552][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.05-05.14.25:567][685]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 5, 2020, 9:14:25 PM)
+[2020.07.05-05.14.25:569][685]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.07.05-05.14.25:682][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112556s)
+[2020.07.05-05.14.25:685][685]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.07.05-05.14.25:686][685]LogPlayLevel: PIE: World Init took: (0.003689s)
+[2020.07.05-05.14.25:688][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.120766s)
+[2020.07.05-05.14.25:822][685]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.07.05-05.14.25:987][685]LogInit: FAudioDevice initialized.
+[2020.07.05-05.14.26:190][685]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.07.05-05.14.26:230][685]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2020.07.05-13.14.26
+[2020.07.05-05.14.26:236][685]LogWorld: Bringing up level for play took: 0.017708
+[2020.07.05-05.14.26:444][685]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0055 seconds. Added 11 classes and 0 folders.
+[2020.07.05-05.14.26:453][685]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.079
+[2020.07.05-05.14.26:454][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.05-05.37.28:312][463]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.05-05.37.28:446][463]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2020.07.05-05.37.43:875][547]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.37.44:206][547]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.37.44:381][547]LogMaterial: Missing cached shader map for material fire-a, compiling. 
+[2020.07.05-05.37.44:635][547]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy fire-a, compiling. 
+[2020.07.05-05.37.54:788][547]TextureStreamingBuild: Display: Compiling optional shaders took 10.186 seconds.
+[2020.07.05-05.38.11:129][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metal/fire/fire-a" FILE="G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Metal/fire/fire-a.uasset" SILENT=true
+[2020.07.05-05.38.11:342][547]LogSavePackage: Save=204.11ms
+[2020.07.05-05.38.11:342][547]LogSavePackage: Moving 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/fire-a13EF3FF041187F54F5C064B3CA388B74.tmp' to 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Metal/fire/fire-a.uasset'
+[2020.07.05-05.38.11:371][547]LogSavePackage: Display: Finished SavePackage G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Metal/fire/fire-a.uasset
+[2020.07.05-05.38.11:411][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Metal/fire/未标题-1" FILE="G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Metal/fire/未标题-1.uasset" SILENT=true
+[2020.07.05-05.38.17:872][547]LogSavePackage: Save=6451.40ms
+[2020.07.05-05.38.17:873][547]LogSavePackage: Moving 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/未标题-19D18A82D44D2F7FB6B4A24B59B7C2A07.tmp' to 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Metal/fire/未标题-1.uasset'
+[2020.07.05-05.38.17:903][547]LogSavePackage: Display: Finished SavePackage G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Metal/fire/未标题-1.uasset
+[2020.07.05-05.38.18:617][547]LogSavePackage: Save=356.93ms
+[2020.07.05-05.38.18:617][547]LogSavePackage: Moving 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/ThirdPersonExampleMap5448C8A54ACA605BA165739A659489E6.tmp' to 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.07.05-05.38.18:661][547]LogSavePackage: Display: Finished SavePackage G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2020.07.05-05.38.18:738][547]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.816
+[2020.07.05-05.38.19:309][547]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2020.07.05-05.38.20:114][548]Cmd: QUIT_EDITOR
+[2020.07.05-05.38.20:784][548]LogExit: Preparing to exit.
+[2020.07.05-05.38.22:008][548]LogExit: Editor shut down
+[2020.07.05-05.38.22:063][548]LogExit: Transaction tracking system shut down
+[2020.07.05-05.38.22:977][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.07.05-05.38.22:977][548]LogDirectoryWatcher: A directory notification for 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/' was aborted.
+[2020.07.05-05.38.22:978][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.07.05-05.38.22:978][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.07.05-05.38.22:978][548]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.07.05-05.38.23:198][548]LogExit: Object subsystem successfully closed.
+[2020.07.05-05.38.23:249][548]LogD3D11RHI: Shutdown
+[2020.07.05-05.38.23:249][548]LogD3D11RHI: CleanupD3DDevice
+[2020.07.05-05.38.23:776][548]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.07.05-05.38.23:820][548]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2020.07.05-05.38.23:820][548]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2020.07.05-05.38.23:820][548]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2020.07.05-05.38.23:820][548]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2020.07.05-05.38.23:822][548]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2020.07.05-05.38.23:823][548]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2020.07.05-05.38.23:857][548]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2020.07.05-05.38.23:858][548]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2020.07.05-05.38.23:858][548]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2020.07.05-05.38.23:858][548]LogDirectoryWatcher: A directory notification for 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Collections/' was aborted.
+[2020.07.05-05.38.23:858][548]LogDirectoryWatcher: A directory notification for 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Content/Developers/贾瑞/Collections/' was aborted.
+[2020.07.05-05.38.23:859][548]LogDirectoryWatcher: A directory notification for 'G:/Users/贾瑞/Documents/Unreal Projects/Metal/Saved/Collections/' was aborted.
+[2020.07.05-05.38.23:859][548]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2020.07.05-05.38.23:860][548]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2020.07.05-05.38.23:860][548]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2020.07.05-05.38.23:860][548]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2020.07.05-05.38.23:860][548]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2020.07.05-05.38.23:860][548]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2020.07.05-05.38.23:860][548]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2020.07.05-05.38.23:861][548]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2020.07.05-05.38.23:861][548]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2020.07.05-05.38.23:861][548]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2020.07.05-05.38.23:861][548]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2020.07.05-05.38.23:861][548]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2020.07.05-05.38.23:861][548]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2020.07.05-05.38.23:861][548]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2020.07.05-05.38.23:861][548]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2020.07.05-05.38.23:862][548]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2020.07.05-05.38.23:862][548]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2020.07.05-05.38.23:862][548]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2020.07.05-05.38.23:862][548]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2020.07.05-05.38.23:862][548]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2020.07.05-05.38.23:862][548]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2020.07.05-05.38.23:863][548]LogModuleManager: Shutting down and abandoning module Media (477)
+[2020.07.05-05.38.23:863][548]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2020.07.05-05.38.23:863][548]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2020.07.05-05.38.23:863][548]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2020.07.05-05.38.23:863][548]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2020.07.05-05.38.23:863][548]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2020.07.05-05.38.23:863][548]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2020.07.05-05.38.23:863][548]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2020.07.05-05.38.23:863][548]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2020.07.05-05.38.23:864][548]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2020.07.05-05.38.23:864][548]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2020.07.05-05.38.23:864][548]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2020.07.05-05.38.23:864][548]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2020.07.05-05.38.23:864][548]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2020.07.05-05.38.23:865][548]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2020.07.05-05.38.23:865][548]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2020.07.05-05.38.23:865][548]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2020.07.05-05.38.24:225][548]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2020.07.05-05.38.24:225][548]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2020.07.05-05.38.24:225][548]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2020.07.05-05.38.24:225][548]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2020.07.05-05.38.24:225][548]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2020.07.05-05.38.24:225][548]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2020.07.05-05.38.24:226][548]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2020.07.05-05.38.24:227][548]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2020.07.05-05.38.24:228][548]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2020.07.05-05.38.24:228][548]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2020.07.05-05.38.24:228][548]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2020.07.05-05.38.24:228][548]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2020.07.05-05.38.24:228][548]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2020.07.05-05.38.24:228][548]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2020.07.05-05.38.24:284][548]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2020.07.05-05.38.24:284][548]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2020.07.05-05.38.24:284][548]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2020.07.05-05.38.24:284][548]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2020.07.05-05.38.24:284][548]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2020.07.05-05.38.24:284][548]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2020.07.05-05.38.24:285][548]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2020.07.05-05.38.24:285][548]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2020.07.05-05.38.24:285][548]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2020.07.05-05.38.24:285][548]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2020.07.05-05.38.24:287][548]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2020.07.05-05.38.24:287][548]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2020.07.05-05.38.24:288][548]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2020.07.05-05.38.24:288][548]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2020.07.05-05.38.24:288][548]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2020.07.05-05.38.24:288][548]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2020.07.05-05.38.24:288][548]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2020.07.05-05.38.24:288][548]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2020.07.05-05.38.24:288][548]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2020.07.05-05.38.24:288][548]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2020.07.05-05.38.24:288][548]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2020.07.05-05.38.24:289][548]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2020.07.05-05.38.24:291][548]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2020.07.05-05.38.24:291][548]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2020.07.05-05.38.24:291][548]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2020.07.05-05.38.24:291][548]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2020.07.05-05.38.24:291][548]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2020.07.05-05.38.24:291][548]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2020.07.05-05.38.24:291][548]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2020.07.05-05.38.24:292][548]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2020.07.05-05.38.24:292][548]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2020.07.05-05.38.24:318][548]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2020.07.05-05.38.24:318][548]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2020.07.05-05.38.24:318][548]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2020.07.05-05.38.24:318][548]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2020.07.05-05.38.24:319][548]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2020.07.05-05.38.24:320][548]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2020.07.05-05.38.24:321][548]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2020.07.05-05.38.24:321][548]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2020.07.05-05.38.24:321][548]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2020.07.05-05.38.24:321][548]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2020.07.05-05.38.24:321][548]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2020.07.05-05.38.24:321][548]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2020.07.05-05.38.24:325][548]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2020.07.05-05.38.24:325][548]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2020.07.05-05.38.24:325][548]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2020.07.05-05.38.24:327][548]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2020.07.05-05.38.24:327][548]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2020.07.05-05.38.24:328][548]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2020.07.05-05.38.24:328][548]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2020.07.05-05.38.24:328][548]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2020.07.05-05.38.24:328][548]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2020.07.05-05.38.24:328][548]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2020.07.05-05.38.24:328][548]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2020.07.05-05.38.24:429][548]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2020.07.05-05.38.24:530][548]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2020.07.05-05.38.24:530][548]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2020.07.05-05.38.24:530][548]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2020.07.05-05.38.24:530][548]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2020.07.05-05.38.24:530][548]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2020.07.05-05.38.24:530][548]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2020.07.05-05.38.24:534][548]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2020.07.05-05.38.24:535][548]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2020.07.05-05.38.24:535][548]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2020.07.05-05.38.24:535][548]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2020.07.05-05.38.24:541][548]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2020.07.05-05.38.24:541][548]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2020.07.05-05.38.24:541][548]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2020.07.05-05.38.24:541][548]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2020.07.05-05.38.24:541][548]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2020.07.05-05.38.24:541][548]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2020.07.05-05.38.24:541][548]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2020.07.05-05.38.24:542][548]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2020.07.05-05.38.24:542][548]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2020.07.05-05.38.24:542][548]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2020.07.05-05.38.24:542][548]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2020.07.05-05.38.24:542][548]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2020.07.05-05.38.24:542][548]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2020.07.05-05.38.24:542][548]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2020.07.05-05.38.24:542][548]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2020.07.05-05.38.24:543][548]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2020.07.05-05.38.24:543][548]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2020.07.05-05.38.24:543][548]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2020.07.05-05.38.24:543][548]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2020.07.05-05.38.24:543][548]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2020.07.05-05.38.24:550][548]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2020.07.05-05.38.24:550][548]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2020.07.05-05.38.24:550][548]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2020.07.05-05.38.24:550][548]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2020.07.05-05.38.24:550][548]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2020.07.05-05.38.24:550][548]LogModuleManager: Shutting down and abandoning module Core (168)
+[2020.07.05-05.38.24:551][548]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2020.07.05-05.38.24:551][548]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2020.07.05-05.38.24:551][548]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2020.07.05-05.38.24:551][548]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2020.07.05-05.38.24:551][548]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2020.07.05-05.38.24:551][548]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2020.07.05-05.38.24:551][548]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2020.07.05-05.38.24:551][548]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2020.07.05-05.38.24:552][548]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2020.07.05-05.38.24:552][548]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2020.07.05-05.38.24:558][548]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2020.07.05-05.38.24:594][548]LogDerivedDataCache: Shutdown
+[2020.07.05-05.38.24:595][548]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2020.07.05-05.38.24:595][548]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2020.07.05-05.38.24:595][548]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2020.07.05-05.38.24:595][548]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2020.07.05-05.38.24:595][548]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2020.07.05-05.38.24:595][548]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2020.07.05-05.38.24:596][548]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2020.07.05-05.38.24:596][548]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2020.07.05-05.38.24:596][548]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2020.07.05-05.38.24:596][548]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2020.07.05-05.38.24:597][548]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2020.07.05-05.38.24:597][548]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2020.07.05-05.38.24:597][548]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2020.07.05-05.38.24:597][548]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2020.07.05-05.38.24:597][548]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2020.07.05-05.38.24:597][548]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2020.07.05-05.38.24:597][548]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2020.07.05-05.38.24:597][548]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2020.07.05-05.38.24:598][548]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2020.07.05-05.38.24:598][548]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2020.07.05-05.38.24:598][548]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2020.07.05-05.38.24:598][548]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2020.07.05-05.38.24:598][548]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2020.07.05-05.38.24:598][548]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2020.07.05-05.38.24:598][548]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2020.07.05-05.38.24:598][548]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2020.07.05-05.38.24:599][548]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2020.07.05-05.38.24:599][548]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2020.07.05-05.38.24:599][548]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2020.07.05-05.38.24:599][548]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2020.07.05-05.38.24:599][548]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2020.07.05-05.38.24:599][548]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2020.07.05-05.38.24:599][548]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2020.07.05-05.38.24:600][548]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2020.07.05-05.38.24:600][548]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2020.07.05-05.38.24:600][548]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2020.07.05-05.38.24:600][548]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2020.07.05-05.38.24:600][548]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2020.07.05-05.38.24:600][548]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2020.07.05-05.38.24:600][548]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2020.07.05-05.38.24:600][548]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2020.07.05-05.38.24:601][548]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.07.05-05.38.24:601][548]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.07.05-05.38.24:601][548]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2020.07.05-05.38.24:601][548]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2020.07.05-05.38.24:601][548]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2020.07.05-05.38.24:601][548]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.07.05-05.38.24:602][548]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.07.05-05.38.24:602][548]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.07.05-05.38.24:602][548]LogOnline: Display: Unloading online subsystem: NULL
+[2020.07.05-05.38.24:602][548]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.07.05-05.38.24:602][548]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.07.05-05.38.24:602][548]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.07.05-05.38.24:602][548]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B22513EB2-403A-6BCA-1C5E-E0A333A1FD21%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=6e98d8234e88ea4ebbfa8abd8d1f208b%7Ce39cd4c2c81743f6be89f1e50758bc19%7Cb4b75c51-3376-4319-a5c7-672685f3b267&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.07.05-05.38.24:615][548]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.07.05-05.38.24:622][548]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.07.05-05.38.24:622][548]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.07.05-05.38.24:622][548]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.07.05-05.38.24:622][548]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.07.05-05.38.24:622][548]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.07.05-05.38.24:622][548]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.07.05-05.38.24:622][548]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.07.05-05.38.24:636][548]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.07.05-05.38.24:636][548]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.07.05-05.38.24:636][548]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.07.05-05.38.24:636][548]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.07.05-05.38.24:636][548]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.07.05-05.38.24:636][548]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.07.05-05.38.24:636][548]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.07.05-05.38.24:636][548]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.07.05-05.38.24:637][548]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.07.05-05.38.24:637][548]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.07.05-05.38.24:637][548]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.07.05-05.38.24:642][548]LogExit: Exiting.
+[2020.07.05-05.38.24:693][548]Log file closed, 07/05/20 13:38:24
